@@ -14,9 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $titolo = 'Lista Scuola';
     return view('home');
-})->name('home' , $titolo);
+})->name('home');
 
 Route::get('/laravel/resources/views/studenti.blade.php', function () {
     $data = [

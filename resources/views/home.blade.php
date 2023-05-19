@@ -21,13 +21,9 @@
         </style>
     </head>
     <body class="antialiased">
-        <h1>>{{$titolo}}</h1>
-       <ul>
-        @foreach ($professori as $professore)
-        <li>{{$professore}}</li>
-
-        @endforeach
-       </ul>
-       <a href="{{ route('home') }}">Torna alla Home</a>
+       <h1>Lista Scuola</h1>
+       <h3>clicca sui link per visualizzare le liste</h3>
+       <a href="{{ route('studenti') }}">Lista Studenti</a>
+       <a href="{{ route('professori') }}">Lista Professori</a>
     </body>
 </html>

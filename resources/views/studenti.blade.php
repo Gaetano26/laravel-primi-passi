@@ -21,7 +21,7 @@
         </style>
     </head>
     <body class="antialiased">
-       <h1>>{{$titolo}}</h1>
+       <h1>{{$titolo}}</h1>
        <ul>
         @foreach ($studenti as $studente)
         <li>{{$studente}}</li>
